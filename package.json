@@ -1,0 +1,21 @@
+{
+  "name": "reccon",
+  "version": "1.0",
+  "description": "Projeto para fins acadêmico",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "author": "David",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16",
+    "sequelize-cli": "^6.4.1"
+  }
+}
